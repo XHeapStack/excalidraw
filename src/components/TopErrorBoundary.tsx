@@ -69,7 +69,7 @@ export class TopErrorBoundary extends React.Component<
     );
   }
 
-  private errorSplash() {
+  private errorSplash(): React.ReactNode {
     return (
       <div className="ErrorSplash excalidraw">
         <div className="ErrorSplash-messageContainer">
